@@ -1,11 +1,11 @@
-FastAPI User Management System
+## FastAPI User Management System
 
-Overview
+## Overview 
 
 This is a user management system built with FastAPI and MongoDB. The application includes functionalities such as user registration, login with JWT authentication, and secure access to protected routes. Swagger UI is integrated for API documentation and testing.
 
 
-Features
+## Features
 
 User Registration: Register users with email, username, and password.
 JWT Authentication: Secure login and token generation.
@@ -17,7 +17,7 @@ Delete user and related data.
 API Documentation: Swagger UI available at /docs.
 
 
-Technologies Used
+## Technologies Used
 
 Backend Framework: FastAPI
 Database: MongoDB
@@ -27,15 +27,15 @@ API Documentation: Swagger UI
 HTTP Client Testing: cURL/Postman
 
 
-Installation and Setup
+## Installation and Setup
 
-Prerequisites
+## Prerequisites
 
 Python 3.10+
 MongoDB installed and running locally or on a server.
 A package manager like pip or conda.
 
-Installation
+# Installation
 Clone the repository:
 
 bash
@@ -63,7 +63,7 @@ Copy code
 MONGODB_URL = "mongodb://localhost:27017"
 
 
-Running the Application
+## Running the Application
 
 Start the MongoDB server:
 
@@ -79,7 +79,7 @@ uvicorn main:app --reload
 Open Swagger UI: Navigate to http://127.0.0.1:8000/docs.
 
 
-API Endpoints
+## API Endpoints
 
 Public Endpoints
 Register a User
@@ -119,7 +119,7 @@ Delete User
 DELETE /user
 
 
-Testing the Application
+## Testing the Application
 
 Use Swagger UI at /docs for API testing.
 Use Postman or curl for manual API requests.
